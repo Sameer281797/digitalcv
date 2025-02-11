@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Readex Pro';
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color of the whole body and text color */
+body {
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+}
+
+/* Style for links */
+a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+/* Remove bullet points from lists */
+ul {
+    list-style-type: none;
+}
+
+/* Style for horizontal lines */
+hr {
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+
+/* Hiding Streamlit default header, footer, and menu */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Change background color for Streamlit elements */
+.stApp {
+    background-color: black !important; /* Make the entire Streamlit app background black */
+}
+
+.stText {
+    color: white !important; /* Ensure text is visible */
+}
+
+.stButton, .stDownloadButton, .stMarkdown {
+    background-color: black !important; /* Make buttons match the dark theme */
+    color: white !important; /* Ensure button text is white */
+}
+
+.stImage {
+    border-radius: 5px; /* Optional: For styling images */
+}
