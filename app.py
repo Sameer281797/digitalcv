@@ -14,6 +14,7 @@ resume_file = current_dir / "assets" / "samcv.pdf"
 profile_pic = current_dir / "assets" / "profile.png"
 linkedin_icon = current_dir / "assets" / "in_logo.png"
 github_icon = current_dir / "assets" / "gt_logo.png"
+whatsapp_icon = current_dir / "assets" / "wp_logo.png"
 
 # ---------------------GENERAL SETTINGS----------------------------------------------------------------------------
 
@@ -21,7 +22,7 @@ PAGE_TITLE = "DIGITAL CV | SAMEER"
 PAGE_ICON = ":wave:"
 NAME = "Sameer Raghuwanshi"
 DESCRIPTION = """
-Enthusiastic software engineer eager to kick-start a career in Python development through an internship or job opportunity.
+Enthusiastic and self-driven software engineer with a strong foundation in Python development.
 """
 EMAIL = "sameer281797@gmail.com"
 SOCIAL_MEDIA = {
@@ -32,6 +33,10 @@ SOCIAL_MEDIA = {
     "GitHub": {
         "url": "https://github.com/Sameer281797",
         "icon": github_icon
+    },
+    "WhatsApp": {
+        "url": "https://wa.me/9589415578", 
+        "icon": whatsapp_icon
     },
 }
 PROJECTS = {
@@ -75,9 +80,12 @@ st.markdown("""
         <a href="https://github.com/Sameer281797" target="_blank">
             <img src="data:image/png;base64,{}" width="60"/>
         </a>
+        <a href="https://wa.me/9589415578" target="_blank">
+            <img src="data:image/png;base64,{}" width="60"/>
+        </a>
     </div>
 """.format(
-    image_to_base64(linkedin_icon), image_to_base64(github_icon)
+    image_to_base64(linkedin_icon), image_to_base64(github_icon), image_to_base64(whatsapp_icon)
 ), unsafe_allow_html=True)
 
 
@@ -106,12 +114,11 @@ st.write("💻", "**Customer Service Associate | Tech Mahindra**")
 st.write("Jun '24 – Nov '24")
 st.write(
     """
-- ► Receive, investigate, and respond to customer inquiries regarding products, services, and issues via all channels through which customers are served.
+- ► Investigated and resolved customer issues related to products and services through various channels.
 
-- ► Take ownership of customers issues and follow problems through to resolution, while maintaining high levels of customer satisfaction.
+- ► Took ownership of customer inquiries, ensuring a high level of satisfaction and timely resolution.
 
-- ► Developed and facilitated monthly training sessions for newcomers that contributed to a 30% reduction in average
-call resolution time.
+- ► Assisted new team members with process workflows and operations, boosting team efficiency.
 """
 )
 
@@ -123,7 +130,7 @@ st.write(
     """
 - ► Collaborated with other developers in designing solutions for complex problems.
 
-- ► Tested websites across multiple browsers to ensure compatibility and responsiveness.
+- ► Conducted cross-browser testing to ensure website compatibility and responsiveness.
 """
 )
 
