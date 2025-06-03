@@ -145,14 +145,12 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("✔️ Python")
-    st.write("✔️ Django")
     st.write("✔️ Flask")
-    st.write("✔️ JAVA")
+    st.write("✔️ MS-EXCEL")
 
 with col2:
-    st.write("✔️ HTML")
-    st.write("✔️ CSS")
-    st.write("✔️ MS-EXCEL")
+    st.write("✔️ DSA")
+    st.write("✔️ Django")
     st.write("✔️ SQL")
 
 
