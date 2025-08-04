@@ -134,6 +134,21 @@ st.write(
 """
 )
 
+# --- JOB 3
+st.write("💻", "**Customer Relationship Manager | Baby Leo Apparels**")
+st.write("Jun '25 – July '25")
+st.write(
+    """
+- ► Verifying customer orders and ensuring accurate address details.
+
+- ► Calling and confirming RTO orders to identify if they are legitimate returns or issues with delivery personnel.
+
+- ► Coordinating with the courier service to reattempt delivery or mark orders as RTO.
+
+- ► Updating orders on the Shopify platform and ensuring inventory management by communicating with the stock team.
+"""
+)
+
 # --- HARD SKILLS --- 
 
 st.write('\n')

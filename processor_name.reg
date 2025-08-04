@@ -1,0 +1,3 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\HARDWARE\DESCRIPTION\System\CentralProcessor\0]
+"ProcessorNameString"="Intel(R) Core(TM) i5-4210U CPU @ 2.40GHz 2.40GHz"
